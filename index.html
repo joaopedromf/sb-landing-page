@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Bootstrap - Landing Page</title>
+    <meta name="author" content="João Pedro Martins Forte">
+    <meta name="description" content="Projeto de uma landing page em HTML e CSS.">
+    <meta name="keywords" content="project, html5, css3, landing page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image.png" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <a href="index.html" class="main-header__logo">Start Bootstrap</a>
+            <a href="#sign-up-form" class="btn">Registre-se</a>
+        </nav>
+    </header>
+    <main>
+        <section class="sign-up-banner">
+            <div class="sign-up-banner__content">
+                <h1 class="sign-up-banner__title sign-up-banner__title--white">Gere mais leads com uma landing page profissional!</h1>
+                <form action="#" method="post" class="sign-up-form">
+                    <div class="sign-up-form__email">
+                        <input type="email" name="sign-up-email" class="sign-up-form__input" placeholder="Endereço de Email" required>
+                        <i class="fa-solid fa-circle-exclamation sign-up-form__invalid-icon"></i>
+                        <div class="sign-up-form__invalid">
+                            <p>É necessário um endereço de e-mail.</p>
+                            <p>O endereço de email não é válido.</p>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn btn--big">
+                </form>
+            </div>
+        </section>
+        <section class="generic">
+            <div class="generic__container">
+                <article class="generic__card">
+                    <i class="fa-regular fa-window-restore features-icon"></i>
+                    <h3>Totalmente Responsivo</h3>
+                    <p>
+                        Este tema ficará ótimo em qualquer dispositivo, não importa o tamanho!
+                    </p>
+                </article>
+                <article class="generic__card">
+                    <i class="fa-solid fa-layer-group features-icon"></i>
+                    <h3>Bootstrap 5 Pronto</h3>
+                    <p>
+                        Apresentando a versão mais recente do novo framework Bootstrap 5!
+                    </p>
+                </article>
+                <article class="generic__card">
+                    <i class="fa-solid fa-laptop-code features-icon"></i>
+                    <h3>Fácil de Usar</h3>
+                    <p>
+                        Pronto para usar com seu próprio conteúdo ou personalizar os arquivos de origem!
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section class="showcase">
+            <article class="showcase__card">
+                <div class="showcase__container">
+                    <div class="showcase__image" style="background-image: url(./assets/img/bg-showcase-1.jpg);"></div>
+                </div>
+                <div class="showcase__container">
+                    <div class="showcase__content">
+                        <h2>Design Totalmente Responsivo</h2>
+                        <p>
+                            Ao usar um tema criado pelo Start Bootstrap, você sabe que o tema ficará ótimo em qualquer dispositivo, seja um telefone, tablet ou desktop, a página se comportará de maneira responsiva!
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="showcase__card">
+                <div class="showcase__container">
+                    <div class="showcase__image" style="background-image: url(./assets/img/bg-showcase-2.jpg);"></div>
+                </div>
+                <div class="showcase__container">
+                    <div class="showcase__content">
+                        <h2>Atualizado para Bootstrap 5</h2>
+                        <p>
+                            Recentemente aprimorado e cheio de ótimas classes de utilidade, o Bootstrap 5 está liderando o desenvolvimento da Web responsivo para dispositivos móveis! Todos os temas do Start Bootstrap agora estão usando o Bootstrap 5!
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article class="showcase__card">
+                <div class="showcase__container">
+                    <div class="showcase__image" style="background-image: url(./assets/img/bg-showcase-3.jpg);"></div>
+                </div>
+                <div class="showcase__container">
+                    <div class="showcase__content">
+                        <h2>Fácil de Usar & Personalizar</h2>
+                        <p>
+                            A Lading Page é apenas HTML e CSS com um toque de SCSS para usuários que exigem algumas opções de personalização mais profundas. Fora da caixa, basta adicionar seu conteúdo e imagens, e sua nova página de destino estará pronta!
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="generic">
+            <h2>O que as pessoas estão dizendo...</h2>
+            <div class="generic__container">
+                <article class="generic__card">
+                    <img src="assets/img/testimonials-1.jpg" alt="Testemunha 1" class="testimonials-img">
+                    <h4>Margaret E.</h4>
+                    <p class="testimonials__content">
+                        "Isso é fantástico! Muito obrigada pessoal!"
+                    </p>
+                </article>
+                <article class="generic__card">
+                    <img src="assets/img/testimonials-2.jpg" alt="Testemunha 2" class="testimonials-img">
+                    <h4>Fred S.</h4>
+                    <p class="testimonials__content">
+                        "Bootstrap é incrível. Eu o tenho usado para criar muitas lading pages super legais."
+                    </p>
+                </article>
+                <article class="generic__card">
+                    <img src="assets/img/testimonials-3.jpg" alt="Testemunha 3" class="testimonials-img">
+                    <h4>Sarah W.</h4>
+                    <p class="testimonials__content">
+                        "Muito obrigada por disponibilizar esses recursos gratuitos para nós!"
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section class="sign-up-banner sign-up-banner--small" id="sign-up-form">
+            <div class="sign-up-banner__content">
+                <h2 class="sign-up-banner__title--white">Pronto para começar? Registre-se agora!</h2>
+                <form action="#" method="post" class="sign-up-form">
+                    <div class="sign-up-form__email">
+                        <input type="email" name="sign-up-email" class="sign-up-form__input" placeholder="Endereço de Email" required>
+                        <i class="fa-solid fa-circle-exclamation sign-up-form__invalid-icon"></i>
+                        <div class="sign-up-form__invalid">
+                            <p>É necessário um endereço de e-mail.</p>
+                            <p>O endereço de email não é válido.</p>
+                        </div>
+                    </div>
+                    <input type="submit" value="Enviar" class="btn btn--big">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <div class="main-footer__container">
+            <div class="main-footer__content">
+                <ul class="main-footer__links">
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+                <p class="main-footer__copy">&copy; Seu Site 2023. Todos os Direitos Reservados.</p>
+            </div>
+            <div class="main-footer__content">
+                <ul class="main-footer__social-media">
+                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook main-footer__icon"></i></a></li>
+                    <li><a href="https://twitter.com/"><i class="fa-brands fa-twitter main-footer__icon"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram main-footer__icon"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
